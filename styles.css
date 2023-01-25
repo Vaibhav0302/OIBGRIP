@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Imperial+Script&family=Open+Sans:wght@400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ 
+
+
+}
+
+.container{
+  background: url(images/shivaji-maharaj.webp);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+  font-family: "Imperial Script", cursive;
+  font-size: clamp(4rem, 5vw, 10rem);
+  text-transform: capitalize;
+  font-weight: 400;
+  line-height: 0.9;
+  max-width: 900px;
+   
+}
+
+h2{
+  text-align: center;
+  font-size: 50px;
+}
+.line {
+  display: block;
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+}
+
+.line {
+  font-size: clamp(1.5rem, 10vw, 2rem);
+}
+
+.line::before {
+  position: absolute;
+  width: 40%;
+  height: 3px;
+  background: #fff;
+  content: "";
+  left: 0;
+  top: 50%;
+}
+
+.line::after {
+  position: absolute;
+  width: 40%;
+  height: 3px;
+  background: #fff;
+  content: "";
+  right: 0;
+  top: 50%;
+}
+
+.year {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: clamp(1rem, 5vw, 1.6rem);
+  letter-spacing: 0.075em;
+  margin-top: 1em;
+}
+
+.main{
+    
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: calc(min(1400px, 90%));
+    margin: 0 auto;
+    padding-block: 3em;
+}
+
+.About{
+    line-height: 2;
+    text-align: center;
+    height: 220vh;
+    color: #fff;
+}
+pre{
+  margin-left: -75px;
+  font-size: 25px;
+}
